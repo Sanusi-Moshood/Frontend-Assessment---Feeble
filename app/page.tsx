@@ -73,6 +73,50 @@ export default function Home() {
       >
         {/* hero content */}
         <main className='flex w-full flex-col gap-12 items-center justify-center max-w-[736px] mt-[64px] -tracking-[2%]'>
+          {/* top left ellipse */}
+          <div className='absolute -top-[5px] -left-[5px] -z-10'>
+            <svg
+              width='500'
+              height='334'
+              viewBox='0 0 500 334'
+              fill='none'
+              xmlns='http://www.w3.org/2000/svg'
+            >
+              <g filter='url(#filter0_f_1_146)'>
+                <ellipse
+                  cx='143.159'
+                  cy='-7.8811'
+                  rx='235.633'
+                  ry='220.881'
+                  fill='white'
+                  fillOpacity='0.7'
+                />
+              </g>
+              <defs>
+                <filter
+                  id='filter0_f_1_146'
+                  x='-213.474'
+                  y='-349.762'
+                  width='713.265'
+                  height='683.762'
+                  filterUnits='userSpaceOnUse'
+                  colorInterpolationFilters='sRGB'
+                >
+                  <feFlood floodOpacity='0' result='BackgroundImageFix' />
+                  <feBlend
+                    mode='normal'
+                    in='SourceGraphic'
+                    in2='BackgroundImageFix'
+                    result='shape'
+                  />
+                  <feGaussianBlur
+                    stdDeviation='60.5'
+                    result='effect1_foregroundBlur_1_146'
+                  />
+                </filter>
+              </defs>
+            </svg>
+          </div>
           <div className='flex flex-col gap-6 items-center'>
             <div className='hero-badge opacity-0 y-30 flex items-center gap-2 px-2 pt-1 pb-[5px] bg-white rounded-full w-max'>
               <svg
